@@ -1,6 +1,6 @@
-angular.module('storeApp', [])
+var storeApp = angular.module('storeApp', []);
 
-  .controller('orderController', function($scope) {
+storeApp.controller('orderController', ['$scope', function($scope) {
 
   $scope.options = [
     { label: '0', value: 0 },  
@@ -19,9 +19,38 @@ angular.module('storeApp', [])
   $scope.checkout = function() {  //when user clicks checkout trigger the paypal form
     var target = document.getElementById("paypal-submit");
     target.click();
+  };
+
+
+}]);
+
+storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
+
+  $scope.intro_data = null;
+  $scope.endorsement_data = null;
+
+  //load up the intro and endorsement data into scope
+  loadJSON("http://rniice.github.io/vegready/data/intro_data.json", "intro_data");
+  loadJSON("http://rniice.github.io/vegready/data/endorsement_data.json", "endorsement_data");
+
+  alert($scope.intro_data);
+
+  function loadJSON(address, load_item){
+
+    // Simple GET request example:
+    $http({
+      method: 'GET',
+      url: address,
+      config: "",
+      }).then(function success(response) {
+          $scope[load_item] = response.data;
+        }, function error(response) {
+          console.log("error loading json" + response);
+      });
   }
 
-});
+}]);
+
 
 /*
 $(document).ready(function() {
