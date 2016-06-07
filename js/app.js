@@ -30,11 +30,14 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
   $scope.endorsement_data = null;
 
   //load up the intro and endorsement data into scope
-  //loadJSON("https://rniice.github.io/vegready/data/intro_data.json", "intro_data");
-  //loadJSON("https://rniice.github.io/vegready/data/endorsement_data.json", "endorsement_data");
+  loadJSON("http://michael-crockett.com/vegready/data/intro_data.json", "intro_data");
+  loadJSON("http://michael-crockett.com/vegready/data/endorsement_data.json", "endorsement_data");
 
-  loadJSON("http://stark-atoll-11115.herokuapp.com/intro", "intro_data");
-  loadJSON("http://stark-atoll-11115.herokuapp.com/endorsements", "endorsement_data");
+  //loadJSON("http://stark-atoll-11115.herokuapp.com/intro", "intro_data");
+  //loadJSON("http://stark-atoll-11115.herokuapp.com/endorsements", "endorsement_data");
+
+  //loadJSON("http://stark-atoll-11115.herokuapp.com/intro", "intro_data");
+  //loadJSON("http://stark-atoll-11115.herokuapp.com/endorsements", "endorsement_data");
 
 
   function loadJSON(address, load_item){
