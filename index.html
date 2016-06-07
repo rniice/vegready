@@ -401,13 +401,10 @@
 							<h3>So you can be you.</h3>
 						</header>
 					</div>
-					<div class="col-md-8 cta-message wow fadeInUp">
-						<h3>VegReady delivers delicious, ready to eat vegan meals shipped to your door, making it easy to eat healthy on the go.
-						</h3>
-						<h3>No refrigeration, cooking or defrosting needed, just open and enjoy an instant three-course meal.
-						</h3>
-						<h3>VegReady meals are 100% plant based, non-gmo and gluten free so you can feel good about your body, the planet and.... that nobody was harmed. 
-						</h3>
+					<div class="col-md-8 cta-message wow fadeInUp" ng-controller="pageContent">
+
+						<h3 ng-repeat="sentence in intro_data">{{sentence.text}}</h3>
+
 						<br>
 						<a class="btn btn-store smooth-scroll" href="#testimonial">Testimonials</a>
 						<a class="btn btn-store smooth-scroll" href="#orderform">Order</a>

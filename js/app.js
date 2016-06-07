@@ -43,7 +43,7 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
       config: "",
       }).then(function success(response) {
           $scope[load_item] = response.data;
-          alert(response.data);
+          //alert(response.data);
         }, function error(response) {
           console.log("error loading json" + response);
       });
