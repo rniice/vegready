@@ -30,10 +30,13 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
   $scope.endorsement_data = null;
 
   //load up the intro and endorsement data into scope
-  loadJSON("http://rniice.github.io/vegready/data/intro_data.json", "intro_data");
-  loadJSON("http://rniice.github.io/vegready/data/endorsement_data.json", "endorsement_data");
+  //loadJSON("https://rniice.github.io/vegready/data/intro_data.json", "intro_data");
+  //loadJSON("https://rniice.github.io/vegready/data/endorsement_data.json", "endorsement_data");
 
-  alert($scope.intro_data);
+  loadJSON("data/intro_data.json", "intro_data");
+  loadJSON("data/endorsement_data.json", "endorsement_data");
+
+  //alert($scope.intro_data);
 
   function loadJSON(address, load_item){
 

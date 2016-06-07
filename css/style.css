@@ -114,7 +114,8 @@ h3.center {
 .image-bg-about {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url('../img/Feature_Background_Opacity.jpg');
+	/*background-image: url('../img/Feature_Background_Opacity.jpg');*/
+	background-image: url('../img/about_background_65pct.jpg');
 	/*opacity: 0.2; */
 	background-position: center 16%;
 	position: relative;	
