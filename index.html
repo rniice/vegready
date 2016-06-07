@@ -454,7 +454,7 @@
 							<div class="item active" ng-repeat="endorsement in endorsement_data" ng-if="$index==0">
 								<h1>{{endorsement.message}}</h1>
 								<br>
-								<img ng-src="img/{{endorsement.img_large}}">
+								<img class="centered" width="150" ng-src="img/{{endorsement.img_large}}">
 								<h2>{{endorsement.name}}</h2>
 								<h3>{{endorsement.publication}}</h3>
 								<h3>{{endorsement.association}}</h3>
@@ -463,7 +463,7 @@
 							<div class="item" ng-repeat="endorsement in endorsement_data" ng-if="$index!=0">
 								<h1>{{endorsement.message}}</h1>
 								<br>
-								<img ng-src="img/{{endorsement.img_large}}">
+								<img class="centered" width="150" ng-src="img/{{endorsement.img_large}}">
 								<h2>{{endorsement.name}}</h2>
 								<h3>{{endorsement.publication}}</h3>
 								<h3>{{endorsement.association}}</h3>
