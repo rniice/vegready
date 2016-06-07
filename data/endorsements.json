@@ -1,0 +1,26 @@
+[
+	{
+		"img_small"		: "Neal-Barnard-small.png",
+		"img_large"		: "Neal-Barnard-large.png",
+		"message"		: "There’s nothing like having your meal ready and waiting! These vegan meal boxes are so convenient, and delicious and healthy too!",
+		"name"			: "Neal Barnard, MD",
+		"publication"	: "",
+		"association"	: "Founder, Physicians Committee For Responsible Medicine, Author & Speaker"
+	},
+	{
+		"img_small"		: "Michael-Greger-small.jpg",
+		"img_large"		: "Michael-Greger-large.jpg",
+		"message"		: "VegReady’s meal boxes make Meatless Mondays easy.",
+		"name"			: "Michael Greger, MD",
+		"publication"	: "New York Times Bestselling Author, 'How Not to Die' ",
+		"association"	: "Director at the Humane Society"
+	},
+	{
+		"img_small"		: "Baxter-Montgomery-small.jpg",
+		"img_large"		: "Baxter-Montgomery-large.jpg",
+		"message"		: "VegReady’s Meal Boxes are the most convenient first step on the journey toward a healthier life.",
+		"name"			: "Baxter Montgomery, MD",
+		"publication"	: "New York Times Bestselling Author, 'How Not to Die' ",
+		"association"	: "Cardiac Surgeon, Texas Medical Center, largest medical center in the world"
+	}
+]
