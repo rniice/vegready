@@ -33,10 +33,9 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
   //loadJSON("https://rniice.github.io/vegready/data/intro_data.json", "intro_data");
   //loadJSON("https://rniice.github.io/vegready/data/endorsement_data.json", "endorsement_data");
 
-  loadJSON("data/intro_data.json", "intro_data");
-  loadJSON("data/endorsement_data.json", "endorsement_data");
+  loadJSON("http://stark-atoll-11115.herokuapp.com/intro", "intro_data");
+  loadJSON("http://stark-atoll-11115.herokuapp.com/endorsements", "endorsement_data");
 
-  //alert($scope.intro_data);
 
   function loadJSON(address, load_item){
 
@@ -47,6 +46,7 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
       config: "",
       }).then(function success(response) {
           $scope[load_item] = response.data;
+          alert(response.data);
         }, function error(response) {
           console.log("error loading json" + response);
       });
