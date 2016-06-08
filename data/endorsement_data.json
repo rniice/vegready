@@ -8,16 +8,16 @@
 		"association"	: "Founder, Physicians Committee For Responsible Medicine, Author & Speaker"
 	},
 	{
-		"img_small"		: "Michael-Greger-small.jpg",
-		"img_large"		: "Michael-Greger-large.jpg",
+		"img_small"		: "Michael-Greger-small.png",
+		"img_large"		: "Michael-Greger-large.png",
 		"message"		: "VegReady’s meal boxes make Meatless Mondays easy.",
 		"name"			: "Michael Greger, MD",
 		"publication"	: "New York Times Bestselling Author, 'How Not to Die' ",
 		"association"	: "Director at the Humane Society"
 	},
 	{
-		"img_small"		: "Baxter-Montgomery-small.jpg",
-		"img_large"		: "Baxter-Montgomery-large.jpg",
+		"img_small"		: "Baxter-Montgomery-small.png",
+		"img_large"		: "Baxter-Montgomery-large.png",
 		"message"		: "VegReady’s Meal Boxes are the most convenient first step on the journey toward a healthier life.",
 		"name"			: "Baxter Montgomery, MD",
 		"publication"	: "New York Times Bestselling Author, 'How Not to Die' ",
