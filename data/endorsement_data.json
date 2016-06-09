@@ -22,5 +22,13 @@
 		"name"			: "Baxter Montgomery, MD",
 		"publication"	: "New York Times Bestselling Author, 'How Not to Die' ",
 		"association"	: "Cardiac Surgeon, Texas Medical Center, largest medical center in the world"
+	},
+	{
+		"img_small"		: "Josh-Balk-small.png",
+		"img_large"		: "Josh-Balk-large.png",
+		"message"		: "Meatless Mondays is a wonderful way people can help farm animals and incorporate healthier foods into our diet. VegReady meals can make it easy for people to take this important step.",
+		"name"			: "Josh Balk",
+		"publication"		: "Co-Founder of Hampton Creek",
+		"association"		: "Director at the Humane Society"
 	}
 ]
