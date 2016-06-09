@@ -4,9 +4,9 @@
 		"img_large"		: "Neal-Barnard-large.png",
 		"message"		: "There’s nothing like having your meal ready and waiting! These vegan meal boxes are so convenient, and delicious and healthy too!",
 		"name"			: "Neal Barnard, MD",
-		"publication"	: "",
-		"association"	: "Founder, Physicians Committee For Responsible Medicine, Author & Speaker"
-	},
+		"publication"	: "Founder, Physicians Committee For Responsible Medicine",
+		"association"	: "Author & Speaker"
+	}, 
 	{
 		"img_small"		: "Michael-Greger-small.png",
 		"img_large"		: "Michael-Greger-large.png",
@@ -28,7 +28,55 @@
 		"img_large"		: "Josh-Balk-large.png",
 		"message"		: "Meatless Mondays is a wonderful way people can help farm animals and incorporate healthier foods into our diet. VegReady meals can make it easy for people to take this important step.",
 		"name"			: "Josh Balk",
-		"publication"		: "Co-Founder of Hampton Creek",
-		"association"		: "Director at the Humane Society"
+		"publication"	: "Co-Founder of Hampton Creek",
+		"association"	: "Director at the Humane Society"
+	},
+	{
+		"img_small"		: "Keegan-Kuhn-small.png",
+		"img_large"		: "Keegan-Kuhn-large.png",
+		"message"		: "Wow! VegReady has the possibility of completely changing our relationship to eating in a more sustainable, more compassionate, more health promoting and more convenient way than ever before! They are going to revolutionize eating healthfully and the meals are delicious!",
+		"name"			: "Keegan Kuhn",
+		"publication"	: "Co-director, Cowspiracy, award-winning film",
+		"association"	: ""
+	},
+	{
+		"img_small"		: "Victoria-Moran-small.png",
+		"img_large"		: "Victoria-Moran-large.png",
+		"message"		: "The effortlessness of VegReady attracted me first; the quality kept me interested; and the taste sealed the deal. Expect to eat better, get healthier, and have more time for life between meals.",
+		"name"			: "Victoria Moran",
+		"publication"	: "Author of Main Street Vegan",
+		"association"	: "Director of Main Street Vegan Academy"
+	},
+	{
+		"img_small"		: "Jeffrey-Cohan-small.png",
+		"img_large"		: "Jeffrey-Cohan-large.png",
+		"message"		: "VegReady makes it easier to add more plant foods to your diet.",
+		"name"			: "Jeffrey Cohan",
+		"publication"	: "Executive Director of Jewish Vegetarians of North America",
+		"association"	: ""
+	},
+	{
+		"img_small"		: "Mark-Reinfeld-small.png",
+		"img_large"		: "Mark-Reinfeld-large.png",
+		"message"		: "I love the idea of VegReady’s meal boxes which give busy people a way to always have a satisfying plant-based meal on hand.",
+		"name"			: "Mark Reinfeld",
+		"publication"	: "North American Vegetarian Society Summerfest",
+		"association"	: "Master Vegan Chef, Author, Educator, Caterer"
+	},
+	{
+		"img_small"		: "Howard-Lyman-small.png",
+		"img_large"		: "Howard-Lyman-large.png",
+		"message"		: "VegReady is a recipe to a long healthy life.",
+		"name"			: "Howard Lyman",
+		"publication"	: "Author of The Mad Cowboy",
+		"association"	: "Activist, Ex-Rancher"
+	},
+	{
+		"img_small"		: "Terry-Mollner-small.png",
+		"img_large"		: "Terry-Mollner-large.png",
+		"message"		: "VegReady meals: ready to eat, stores without refrigeration and vegan…what is there for a planet loving person not to like?",
+		"name"			: "Terry Mollner",
+		"publication"	: "Co-Founder, Calvert Socially Responsible Investment Funds",
+		"association"	: "Director, Ben & Jerry’s"
 	}
 ]
