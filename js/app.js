@@ -3,7 +3,7 @@ var storeApp = angular.module('storeApp', []);
 storeApp.controller('orderController', ['$scope', function($scope) {
 
   $scope.options = [
-    { label: '0', value: 0 },  
+    { label: '0', value: 0 },
     { label: '1', value: 1 },
     { label: '2', value: 2 },
     { label: '3', value: 3 },
@@ -11,7 +11,7 @@ storeApp.controller('orderController', ['$scope', function($scope) {
     { label: '5', value: 5 },
     { label: '6', value: 6 }
   ];
- 
+
   $scope.vegready_standard = $scope.options[0];
   $scope.vegready_pro = $scope.options[0];
 
@@ -30,8 +30,8 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
   $scope.endorsement_data = null;
 
   //load up the intro and endorsement data into scope
-  loadJSON("http://michael-crockett.com/data/intro_data.json", "intro_data");
-  loadJSON("http://michael-crockett.com/data/endorsement_data.json", "endorsement_data");
+  loadJSON("http://michael-crockett.com/vegready/data/intro_data.json", "intro_data");
+  loadJSON("http://michael-crockett.com/vegready/data/endorsement_data.json", "endorsement_data");
 
 
   function loadJSON(address, load_item){
@@ -99,7 +99,7 @@ $(document).ready(function() {
     });
 
   });
-  
+
 }
 
 */
