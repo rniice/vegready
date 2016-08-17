@@ -30,8 +30,8 @@ storeApp.controller('pageContent', ['$scope', '$http', function($scope,$http) {
   $scope.endorsement_data = null;
 
   //load up the intro and endorsement data into scope
-  loadJSON("http://michael-crockett.com/vegready-fd3cc8d5-937d-4a4c-b01f-da9a2dd14ba5/data/intro_data.json", "intro_data");
-  loadJSON("http://michael-crockett.com/vegready-fd3cc8d5-937d-4a4c-b01f-da9a2dd14ba5/data/endorsement_data.json", "endorsement_data");
+  loadJSON("http://michael-crockett.com/data/intro_data.json", "intro_data");
+  loadJSON("http://michael-crockett.com/data/endorsement_data.json", "endorsement_data");
 
 
   function loadJSON(address, load_item){
